@@ -44,7 +44,7 @@ The styling system combines several technologies:
   - TailwindCSS: For styling
   - Lucide React: For icons
   - Lots of utility components, like carousels, calendar, alerts...
-- **Class Name Utility**: The codebase includes a `cn` utility function from `@/lib/utils` that combines the functionality of `clsx` and `tailwind-merge`. Here's how it's typically used:
+- **Class Name Utility**: The codebase includes a `cn` utility function from `../../lib/utils` that combines the functionality of `clsx` and `tailwind-merge`. Here's how it's typically used:
 
   ```typescript
   // A complex example showing the power of the cn utility
